@@ -1,14 +1,13 @@
-// variable , we have tow kind of variable 1= global variable is on the top function 2= local variable which define inside of function
+let a = 7;
+let b = 5;
 
-function getAverage(a, b) {
-  let average = (a, b) / 2; //local varibale
-  return average;
-}
+console.log(a + b);
 
-let myResult = getAverage(7, 11); //global varibale
+console.log(typeof (a + b));
 
-function logResult() {
-  console.log("the average" + myResult + "inside the function");
-}
+console.log(Math.round(7.5));
 
-logResult();
+console.log(Math.ceil(7.2));
+console.log(Math.floor(7.2));
+console.log(Math.max(7, 5, 10, 12));
+console.log(Math.PI);
