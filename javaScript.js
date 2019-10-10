@@ -1,10 +1,9 @@
-let a = "apple";
-let b = 5;
+let myString = "I\'m a "fun" string";
 
-if (isNaN(a)) {
-  console.log("that aint even a number, thickie");
-} else {
-  console.log("meaning of life is " + a * b);
+if(myString.indexOf("masood")===-1){
+    console.log("the word ninja is not in the string");
+    
+}else{
+    console.log("the word ninja starts at position "+
+    myString.indexOf("ninja"));
 }
-
-console.log(a * b);
