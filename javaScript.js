@@ -1,20 +1,10 @@
-// talking about Array in javaScript
+//obJects
+//Strings,number,arrays,plus many more
 
-let myArray = [];
-myArray[0] = 25;
-myArray[1] = 35;
-myArray[2] = true;
-myArray[3] = "Hello";
+let myCar = new Car();
 
-console.log(myArray);
+let myString = new String();
 
-myArray[2] = false;
-console.log(myArray);
+myString = "Hello";
 
-let myArray2 = [10, 20, "hi", false];
-
-console.log(myArray2);
-
-let myArray3 = new Array();
-let myArray4 = new Array(5);
-console.log(myArray2.length);
+console.log(myString);
