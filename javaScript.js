@@ -1,9 +1,11 @@
-//Accessing and changing Attributes
-// innerHTML and textContent are propertise
+//Changing Style
 
-let content = document.getElementsByClassName("content");
+let test = document.getElementById("mus");
 
-content.getAttribute("class");
+test.setAttribute("style", "textalign:relative");
+test.setAttribute("style", "left:10px");
 
-content.setAttribute("class", "masood");
-content.setAttribute("class", "miran");
+test.style.background = "red";
+
+test.style.textAlign = "right";
+test.style.fontSize = "32px";
