@@ -1,11 +1,5 @@
-//Changing Style
+//Adding element to the DOM
 
-let test = document.getElementById("mus");
+let newLi = document.createElement("li");
 
-test.setAttribute("style", "textalign:relative");
-test.setAttribute("style", "left:10px");
-
-test.style.background = "red";
-
-test.style.textAlign = "right";
-test.style.fontSize = "32px";
+let div = document.createElement("div");
