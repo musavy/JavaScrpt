@@ -1,5 +1,7 @@
-//Adding element to the DOM
+//form in JavaScript
 
-let newLi = document.createElement("li");
+let myFrom = document.forms.myfrom;
 
-let div = document.createElement("div");
+myFrom.name.onfocus = function() {
+  myFrom.name.style.border = "4px solid pink";
+};
