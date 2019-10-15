@@ -1,7 +1,14 @@
-//form in JavaScript
+//simple validation
 
-let myFrom = document.forms.myfrom;
+let myFrom = document.forms.myForm;
+let message = document.getElementById("message");
 
-myFrom.name.onfocus = function() {
-  myFrom.name.style.border = "4px solid pink";
+myFrom.onsubmit = function() {
+  if ((myFrom.name.value = "")) {
+    message.innerHTML = "please enter a name";
+    return false;
+  } else {
+    message.innerHTML = "";
+    return true;
+  }
 };
